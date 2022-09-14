@@ -1,0 +1,49 @@
+div {
+    color: white;
+}
+.row {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.col {
+    flex: .25;
+    justify-self: space-between;
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(37, 165, 165);
+}
+.col-2 {
+    flex: .33;
+    justify-self: space-between;
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(37, 165, 165);
+}
+.col-3{
+    flex: .67;
+    justify-self: space-between;
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(37, 165, 165);
+}
+
+.col-4 {
+    flex: .4;
+    justify-self: space-between;
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(37, 165, 165);
+}
+.col-5 {
+    flex: .6;
+    justify-self: space-between;
+    outline: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(37, 165, 165);
+}
